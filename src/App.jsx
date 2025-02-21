@@ -6,7 +6,8 @@ import Operation from "./components/Operation.jsx";
 function App() {
         return (
 
-        <div>
+        <div
+        className={'min-h-full'}>
             <Balance/>
             <Operation/>
         </div>
